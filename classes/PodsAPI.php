@@ -8789,8 +8789,8 @@ class PodsAPI {
 			$import_data = $data['items'];
 		}
 
-		pods_query( "SET NAMES utf8" );
-		pods_query( "SET CHARACTER SET utf8" );
+//		pods_query( "SET NAMES utf8" );
+//		pods_query( "SET CHARACTER SET utf8" );
 
 		// Loop through the array of items
 		$ids = array();
